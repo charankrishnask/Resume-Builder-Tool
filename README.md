@@ -156,7 +156,7 @@ ResumeBuilderTool/
 ## 📸 Demo Screenshots
 
 ### Dark Theme
-![Resume Builder Page-Dark Theme](Screenshots\DarkTheme.png)
+![Resume Builder Page-Dark Theme](Screenshots/DarkTheme.png)
 
 ### Light Theme
-![Resume Builder Page-Light Theme](Screenshots\LightTheme.png)
+![Resume Builder Page-Light Theme](Screenshots/LightTheme.png)
