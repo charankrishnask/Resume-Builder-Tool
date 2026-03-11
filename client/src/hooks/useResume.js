@@ -33,7 +33,7 @@ export function useResume() {
     useEffect(() => {
         async function loadResume() {
             try {
-                const { data } = await axios.get('/api/resume');
+                const { data } = await api.get('/api/resume');
                 if (data.success && data.data) {
                     setResume(prev => ({
                         ...DEFAULT_RESUME,
@@ -57,7 +57,7 @@ export function useResume() {
     const saveResume = useCallback(async () => {
         setIsSaving(true);
         try {
-            const { data } = await axios.post('/api/resume', { data: resume });
+            const { data } = await api.post('/api/resume', { data: resume });
             if (data.success) {
                 setLastSaved(new Date());
                 return true;
